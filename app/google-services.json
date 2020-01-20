@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1013123208109",
+    "firebase_url": "https://chabbie.firebaseio.com",
+    "project_id": "chabbie",
+    "storage_bucket": "chabbie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013123208109:android:82e034720a6c20d6d10724",
+        "android_client_info": {
+          "package_name": "com.example.android.chabbie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013123208109-mpokb4h9aja9c56dd78l3iecln5a4f7m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.chabbie",
+            "certificate_hash": "f1f63232b5166a10d89a3194013ff1e2cd8508e4"
+          }
+        },
+        {
+          "client_id": "1013123208109-a6dq337d9ll2pfkusac02boc651lflum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpZmDybdLbdRd8b4OLxqp8xN05wngkLHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1013123208109-a6dq337d9ll2pfkusac02boc651lflum.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
