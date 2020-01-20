@@ -28,6 +28,11 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+    //dialogflow sdk dependencies
     implementation 'ai.api:sdk:2.0.7@aar'
     implementation 'ai.api:libai:1.6.12'
+    //java v2
+    implementation 'com.google.cloud:google-cloud-dialogflow:0.67.0-alpha'
+    //for remote procedure call to avoid "No functional channel service provider found" error while creating SessionsClient
+    implementation 'io.grpc:grpc-okhttp:1.13.1'
 }

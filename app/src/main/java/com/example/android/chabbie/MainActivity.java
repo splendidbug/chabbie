@@ -10,6 +10,9 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.util.ArrayList;
 import java.util.List;
 
+import ai.api.model.AIError;
+import ai.api.model.AIResponse;
+
 
 public class MainActivity extends AppCompatActivity {
     FirebaseDatabase database = FirebaseDatabase.getInstance();
@@ -21,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
         myRef.setValue("hmmm");
         setContentView(R.layout.activity_main);
+
 
     }
 }
